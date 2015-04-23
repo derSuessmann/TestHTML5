@@ -1,0 +1,57 @@
+label {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+input {
+	border: 1px solid blue;
+}
+
+div.r0 {
+	color: white;
+	background-color: black; 
+}
+
+div.r1 {
+	color: white;
+	background-color: brown; 
+}
+
+div.r2 {
+	color: white;
+	background-color: red; 
+}
+
+div.r3 {
+	color: black;
+	background-color: orange; 
+}
+
+div.r4 {
+	color: black;
+	background-color: yellow; 
+}
+
+div.r5 {
+	color: black;
+	background-color: green; 
+}
+
+div.r6 {
+	color: white;
+	background-color: blue; 
+}
+
+div.r7 {
+	color: white;
+	background-color: violet; 
+}
+
+div.r8 {
+	color: white;
+	background-color: grey; 
+}
+
+div.r9 {
+	color: black;
+	background-color: white; 
+}
