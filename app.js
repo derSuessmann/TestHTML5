@@ -70,5 +70,19 @@ var calculate = function(event) {
 		+ rValue + "x" + rNormalized[1] + " Ohm";
 }
 
+function saveValues(event) {
+	localStorage.setItem("R", rText.value);
+	localStorage.setItem("eSeries", eSeriesText.value)
+}
+
+function restore() {
+	rText.value = localStorage.getItem("R");
+	eSeriesText.value = localStorage.getItem("eSeries");
+}
+
+restore();
+
+rText.addEventListener("change", saveValues,false);
+eSeriesText.addEventListener("change", saveValues, false);
 calcButton.addEventListener("click", calculate, false);
 
